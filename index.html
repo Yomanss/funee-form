@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form autocomplete="off">
+      <fieldset>
+        <legend>Användar Uppgifter</legend>
+        <label
+          >Namn:
+          <input
+            required
+            type="text"
+            name="user-name"
+            placeholder="John Smith"
+          />
+        </label>
+        <label
+          >Email:
+          <input
+            type="email"
+            name="user-mail"
+            placeholder="johnmaster69@yahoo.com"
+          />
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Fråga 1: Vad är anime?</legend>
+        <label> <input type="radio" name="fraga" />Weeb shit </label>
+        <label> <input type="radio" name="fraga" />Animation från Japan </label>
+        <label> <input type="radio" name="fraga" />Cartoons </label>
+        <label> <input type="radio" name="fraga" />Idk </label>
+      </fieldset>
+      <fieldset>
+        <legend>Fråga 2: Vad är Sverige?</legend>
+        <label> <input type="radio" name="fraga1" />Ett Land </label>
+        <label> <input type="radio" name="fraga1" />Gratis välfärd </label>
+        <label> <input type="radio" name="fraga1" />Vem vet? </label>
+        <label> <input type="radio" name="fraga1" />Du gamla </label>
+      </fieldset>
+      <fieldset>
+        <legend>Fråga 3: funne Monkee?</legend>
+        <label> <input type="radio" name="fraga2" />yes</label>
+        <label> <input type="radio" name="fraga2" />no </label>
+        <label> <input type="radio" name="fraga2" />maybe </label>
+        <label> <input type="radio" name="fraga2" />monee </label>
+      </fieldset>
+      <fieldset>
+        <legend>Betalning</legend>
+        <div class="payment-method">
+          <label> <input type="radio" name="payment" />Kreditkort </label>
+          <label> <input type="radio" name="payment" />Klarna </label>
+          <label> <input type="radio" name="payment" />PayPal </label>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Frakt</legend>
+        <label
+          >Gratis frakt:
+          <input checked type="checkbox" name="gratis-frakt" />
+        </label>
+      </fieldset>
+      <button type="submit">Skicka in!</button>
+    </form>
+  </body>
+</html>
